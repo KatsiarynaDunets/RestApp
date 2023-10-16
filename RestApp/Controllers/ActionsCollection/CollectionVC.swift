@@ -47,4 +47,3 @@ extension CollectionVC: UICollectionViewDelegateFlowLayout {
         CGSize(width: UIScreen.main.bounds.width - 50, height: 80)
     }
 }
-

@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52667AFD2ADDDC6B00E7ACF1 /* PostFlow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52667AFC2ADDDC6B00E7ACF1 /* PostFlow.storyboard */; };
+		52667B002ADDDF6900E7ACF1 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52667AFF2ADDDF6900E7ACF1 /* NetworkService.swift */; };
+		52667B022ADDDF8D00E7ACF1 /* ApiConstatnts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52667B012ADDDF8D00E7ACF1 /* ApiConstatnts.swift */; };
+		52667B042ADDDFCA00E7ACF1 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52667B032ADDDFCA00E7ACF1 /* PostModel.swift */; };
+		52667B062ADDDFE600E7ACF1 /* AlbumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52667B052ADDDFE600E7ACF1 /* AlbumModel.swift */; };
+		52667B082ADDE17900E7ACF1 /* AlbunsAndPhotos.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52667B072ADDE17900E7ACF1 /* AlbunsAndPhotos.storyboard */; };
 		52749D7A2AD7439100EB022E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52749D792AD7439100EB022E /* AppDelegate.swift */; };
 		52749D7C2AD7439100EB022E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52749D7B2AD7439100EB022E /* SceneDelegate.swift */; };
 		52749D842AD7439100EB022E /* RestApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52749D822AD7439100EB022E /* RestApp.xcdatamodeld */; };
 		52749D862AD7439200EB022E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52749D852AD7439200EB022E /* Assets.xcassets */; };
 		52749D892AD7439200EB022E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52749D872AD7439200EB022E /* LaunchScreen.storyboard */; };
 		52749D952AD7463700EB022E /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52749D942AD7463700EB022E /* UserModel.swift */; };
-		52749D972AD7465000EB022E /* ApiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52749D962AD7465000EB022E /* ApiConstants.swift */; };
 		52749D992AD7469E00EB022E /* CollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52749D982AD7469E00EB022E /* CollectionVC.swift */; };
 		52749D9B2AD746B900EB022E /* ActionCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52749D9A2AD746B900EB022E /* ActionCVCell.swift */; };
 		52749D9D2AD746D400EB022E /* ImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52749D9C2AD746D400EB022E /* ImageVC.swift */; };
 		52749D9F2AD746F400EB022E /* UsersTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52749D9E2AD746F400EB022E /* UsersTVC.swift */; };
 		52749DA12AD7482000EB022E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52749DA02AD7482000EB022E /* Main.storyboard */; };
+		52749DA42ADDC99600EB022E /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 52749DA32ADDC99600EB022E /* SwiftyJSON */; };
+		52749DA72ADDC9BD00EB022E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 52749DA62ADDC9BD00EB022E /* Alamofire */; };
+		52749DAA2ADDC9D800EB022E /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 52749DA92ADDC9D800EB022E /* AlamofireImage */; };
+		52749DAE2ADDD44C00EB022E /* NewPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52749DAD2ADDD44C00EB022E /* NewPostVC.swift */; };
+		52749DB02ADDD48300EB022E /* PostsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52749DAF2ADDD48300EB022E /* PostsTVC.swift */; };
+		52749DB22ADDD49700EB022E /* AlbumsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52749DB12ADDD49700EB022E /* AlbumsTVC.swift */; };
+		52749DB42ADDD4D800EB022E /* DetailUserVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52749DB32ADDD4D800EB022E /* DetailUserVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52667AFC2ADDDC6B00E7ACF1 /* PostFlow.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PostFlow.storyboard; sourceTree = "<group>"; };
+		52667AFF2ADDDF6900E7ACF1 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		52667B012ADDDF8D00E7ACF1 /* ApiConstatnts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConstatnts.swift; sourceTree = "<group>"; };
+		52667B032ADDDFCA00E7ACF1 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		52667B052ADDDFE600E7ACF1 /* AlbumModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumModel.swift; sourceTree = "<group>"; };
+		52667B072ADDE17900E7ACF1 /* AlbunsAndPhotos.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AlbunsAndPhotos.storyboard; sourceTree = "<group>"; };
 		52749D762AD7439100EB022E /* RestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52749D792AD7439100EB022E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52749D7B2AD7439100EB022E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,12 +48,15 @@
 		52749D882AD7439200EB022E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52749D8A2AD7439200EB022E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52749D942AD7463700EB022E /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
-		52749D962AD7465000EB022E /* ApiConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConstants.swift; sourceTree = "<group>"; };
 		52749D982AD7469E00EB022E /* CollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionVC.swift; sourceTree = "<group>"; };
 		52749D9A2AD746B900EB022E /* ActionCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionCVCell.swift; sourceTree = "<group>"; };
 		52749D9C2AD746D400EB022E /* ImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageVC.swift; sourceTree = "<group>"; };
 		52749D9E2AD746F400EB022E /* UsersTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTVC.swift; sourceTree = "<group>"; };
 		52749DA02AD7482000EB022E /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		52749DAD2ADDD44C00EB022E /* NewPostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostVC.swift; sourceTree = "<group>"; };
+		52749DAF2ADDD48300EB022E /* PostsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsTVC.swift; sourceTree = "<group>"; };
+		52749DB12ADDD49700EB022E /* AlbumsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsTVC.swift; sourceTree = "<group>"; };
+		52749DB32ADDD4D800EB022E /* DetailUserVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailUserVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,12 +64,66 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52749DA42ADDC99600EB022E /* SwiftyJSON in Frameworks */,
+				52749DA72ADDC9BD00EB022E /* Alamofire in Frameworks */,
+				52749DAA2ADDC9D800EB022E /* AlamofireImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52667AFE2ADDDF3B00E7ACF1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				52667AFF2ADDDF6900E7ACF1 /* NetworkService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		52667B092ADDE59500E7ACF1 /* ActionsCollection */ = {
+			isa = PBXGroup;
+			children = (
+				52749D982AD7469E00EB022E /* CollectionVC.swift */,
+				52749D9A2AD746B900EB022E /* ActionCVCell.swift */,
+			);
+			path = ActionsCollection;
+			sourceTree = "<group>";
+		};
+		52667B0A2ADDE5A600E7ACF1 /* ImageView */ = {
+			isa = PBXGroup;
+			children = (
+				52749D9C2AD746D400EB022E /* ImageVC.swift */,
+			);
+			path = ImageView;
+			sourceTree = "<group>";
+		};
+		52667B0B2ADDE5B900E7ACF1 /* UsersList */ = {
+			isa = PBXGroup;
+			children = (
+				52749D9E2AD746F400EB022E /* UsersTVC.swift */,
+				52749DB32ADDD4D800EB022E /* DetailUserVC.swift */,
+			);
+			path = UsersList;
+			sourceTree = "<group>";
+		};
+		52667B0C2ADDE5C500E7ACF1 /* Posts */ = {
+			isa = PBXGroup;
+			children = (
+				52749DAF2ADDD48300EB022E /* PostsTVC.swift */,
+				52749DAD2ADDD44C00EB022E /* NewPostVC.swift */,
+			);
+			path = Posts;
+			sourceTree = "<group>";
+		};
+		52667B0D2ADDE5E400E7ACF1 /* Albums */ = {
+			isa = PBXGroup;
+			children = (
+				52749DB12ADDD49700EB022E /* AlbumsTVC.swift */,
+			);
+			path = Albums;
+			sourceTree = "<group>";
+		};
 		52749D6D2AD7439100EB022E = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +143,7 @@
 		52749D782AD7439100EB022E /* RestApp */ = {
 			isa = PBXGroup;
 			children = (
+				52667AFE2ADDDF3B00E7ACF1 /* Services */,
 				52749D932AD7462300EB022E /* Models */,
 				52749D912AD7460300EB022E /* Controllers */,
 				52749D922AD7461200EB022E /* Views */,
@@ -91,10 +167,11 @@
 		52749D912AD7460300EB022E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				52749D982AD7469E00EB022E /* CollectionVC.swift */,
-				52749D9A2AD746B900EB022E /* ActionCVCell.swift */,
-				52749D9C2AD746D400EB022E /* ImageVC.swift */,
-				52749D9E2AD746F400EB022E /* UsersTVC.swift */,
+				52667B092ADDE59500E7ACF1 /* ActionsCollection */,
+				52667B0A2ADDE5A600E7ACF1 /* ImageView */,
+				52667B0B2ADDE5B900E7ACF1 /* UsersList */,
+				52667B0C2ADDE5C500E7ACF1 /* Posts */,
+				52667B0D2ADDE5E400E7ACF1 /* Albums */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -103,6 +180,8 @@
 			isa = PBXGroup;
 			children = (
 				52749DA02AD7482000EB022E /* Main.storyboard */,
+				52667B072ADDE17900E7ACF1 /* AlbunsAndPhotos.storyboard */,
+				52667AFC2ADDDC6B00E7ACF1 /* PostFlow.storyboard */,
 				52749D872AD7439200EB022E /* LaunchScreen.storyboard */,
 			);
 			path = Views;
@@ -112,7 +191,9 @@
 			isa = PBXGroup;
 			children = (
 				52749D942AD7463700EB022E /* UserModel.swift */,
-				52749D962AD7465000EB022E /* ApiConstants.swift */,
+				52667B012ADDDF8D00E7ACF1 /* ApiConstatnts.swift */,
+				52667B032ADDDFCA00E7ACF1 /* PostModel.swift */,
+				52667B052ADDDFE600E7ACF1 /* AlbumModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -133,6 +214,11 @@
 			dependencies = (
 			);
 			name = RestApp;
+			packageProductDependencies = (
+				52749DA32ADDC99600EB022E /* SwiftyJSON */,
+				52749DA62ADDC9BD00EB022E /* Alamofire */,
+				52749DA92ADDC9D800EB022E /* AlamofireImage */,
+			);
 			productName = RestApp;
 			productReference = 52749D762AD7439100EB022E /* RestApp.app */;
 			productType = "com.apple.product-type.application";
@@ -161,6 +247,11 @@
 				Base,
 			);
 			mainGroup = 52749D6D2AD7439100EB022E;
+			packageReferences = (
+				52749DA22ADDC99600EB022E /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				52749DA52ADDC9BD00EB022E /* XCRemoteSwiftPackageReference "Alamofire" */,
+				52749DA82ADDC9D800EB022E /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+			);
 			productRefGroup = 52749D772AD7439100EB022E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -175,7 +266,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52667AFD2ADDDC6B00E7ACF1 /* PostFlow.storyboard in Resources */,
 				52749DA12AD7482000EB022E /* Main.storyboard in Resources */,
+				52667B082ADDE17900E7ACF1 /* AlbunsAndPhotos.storyboard in Resources */,
 				52749D892AD7439200EB022E /* LaunchScreen.storyboard in Resources */,
 				52749D862AD7439200EB022E /* Assets.xcassets in Resources */,
 			);
@@ -189,13 +282,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				52749D7A2AD7439100EB022E /* AppDelegate.swift in Sources */,
-				52749D972AD7465000EB022E /* ApiConstants.swift in Sources */,
+				52667B042ADDDFCA00E7ACF1 /* PostModel.swift in Sources */,
 				52749D7C2AD7439100EB022E /* SceneDelegate.swift in Sources */,
+				52749DB02ADDD48300EB022E /* PostsTVC.swift in Sources */,
 				52749D9B2AD746B900EB022E /* ActionCVCell.swift in Sources */,
 				52749D992AD7469E00EB022E /* CollectionVC.swift in Sources */,
+				52667B002ADDDF6900E7ACF1 /* NetworkService.swift in Sources */,
+				52667B022ADDDF8D00E7ACF1 /* ApiConstatnts.swift in Sources */,
+				52749DB42ADDD4D800EB022E /* DetailUserVC.swift in Sources */,
 				52749D9F2AD746F400EB022E /* UsersTVC.swift in Sources */,
+				52749DB22ADDD49700EB022E /* AlbumsTVC.swift in Sources */,
 				52749D952AD7463700EB022E /* UserModel.swift in Sources */,
 				52749D842AD7439100EB022E /* RestApp.xcdatamodeld in Sources */,
+				52667B062ADDDFE600E7ACF1 /* AlbumModel.swift in Sources */,
+				52749DAE2ADDD44C00EB022E /* NewPostVC.swift in Sources */,
 				52749D9D2AD746D400EB022E /* ImageVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,6 +506,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		52749DA22ADDC99600EB022E /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		52749DA52ADDC9BD00EB022E /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		52749DA82ADDC9D800EB022E /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		52749DA32ADDC99600EB022E /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52749DA22ADDC99600EB022E /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		52749DA62ADDC9BD00EB022E /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52749DA52ADDC9BD00EB022E /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		52749DA92ADDC9D800EB022E /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52749DA82ADDC9D800EB022E /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		52749D822AD7439100EB022E /* RestApp.xcdatamodeld */ = {
