@@ -11,7 +11,6 @@ class ImageVC: UIViewController {
 
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var activityIndicatorView: UIActivityIndicatorView!
-    
     private let imageURL = "https://img.badfon.ru/original/6000x4000/1/e9/arizona-horseshoe-bend-river-1468.jpg"
     private let imageURL2 = "https://w.forfun.com/fetch/29/2942cda3da91073bcaf9915bec9195d5.jpeg"
     
