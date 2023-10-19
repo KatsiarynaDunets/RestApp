@@ -12,7 +12,13 @@
 		52667B022ADDDF8D00E7ACF1 /* ApiConstatnts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52667B012ADDDF8D00E7ACF1 /* ApiConstatnts.swift */; };
 		52667B042ADDDFCA00E7ACF1 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52667B032ADDDFCA00E7ACF1 /* PostModel.swift */; };
 		52667B062ADDDFE600E7ACF1 /* AlbumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52667B052ADDDFE600E7ACF1 /* AlbumModel.swift */; };
-		52667B082ADDE17900E7ACF1 /* AlbunsAndPhotos.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52667B072ADDE17900E7ACF1 /* AlbunsAndPhotos.storyboard */; };
+		52667B082ADDE17900E7ACF1 /* AlbumsAndPhotos.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52667B072ADDE17900E7ACF1 /* AlbumsAndPhotos.storyboard */; };
+		52667B0F2AE05E1700E7ACF1 /* CommentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52667B0E2AE05E1700E7ACF1 /* CommentModel.swift */; };
+		52667B112AE05E3A00E7ACF1 /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52667B102AE05E3A00E7ACF1 /* PhotoModel.swift */; };
+		52667B152AE05FBF00E7ACF1 /* CommentsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52667B142AE05FBF00E7ACF1 /* CommentsTVC.swift */; };
+		52667B192AE0607100E7ACF1 /* PhotosCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52667B182AE0607100E7ACF1 /* PhotosCVC.swift */; };
+		52667B1E2AE0685C00E7ACF1 /* PhotosCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52667B1C2AE0685C00E7ACF1 /* PhotosCVCell.swift */; };
+		52667B1F2AE0685C00E7ACF1 /* PhotosCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52667B1D2AE0685C00E7ACF1 /* PhotosCVCell.xib */; };
 		52749D7A2AD7439100EB022E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52749D792AD7439100EB022E /* AppDelegate.swift */; };
 		52749D7C2AD7439100EB022E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52749D7B2AD7439100EB022E /* SceneDelegate.swift */; };
 		52749D842AD7439100EB022E /* RestApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52749D822AD7439100EB022E /* RestApp.xcdatamodeld */; };
@@ -39,7 +45,13 @@
 		52667B012ADDDF8D00E7ACF1 /* ApiConstatnts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConstatnts.swift; sourceTree = "<group>"; };
 		52667B032ADDDFCA00E7ACF1 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		52667B052ADDDFE600E7ACF1 /* AlbumModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumModel.swift; sourceTree = "<group>"; };
-		52667B072ADDE17900E7ACF1 /* AlbunsAndPhotos.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AlbunsAndPhotos.storyboard; sourceTree = "<group>"; };
+		52667B072ADDE17900E7ACF1 /* AlbumsAndPhotos.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AlbumsAndPhotos.storyboard; sourceTree = "<group>"; };
+		52667B0E2AE05E1700E7ACF1 /* CommentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentModel.swift; sourceTree = "<group>"; };
+		52667B102AE05E3A00E7ACF1 /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
+		52667B142AE05FBF00E7ACF1 /* CommentsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsTVC.swift; sourceTree = "<group>"; };
+		52667B182AE0607100E7ACF1 /* PhotosCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCVC.swift; sourceTree = "<group>"; };
+		52667B1C2AE0685C00E7ACF1 /* PhotosCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCVCell.swift; sourceTree = "<group>"; };
+		52667B1D2AE0685C00E7ACF1 /* PhotosCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotosCVCell.xib; sourceTree = "<group>"; };
 		52749D762AD7439100EB022E /* RestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52749D792AD7439100EB022E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52749D7B2AD7439100EB022E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -124,6 +136,32 @@
 			path = Albums;
 			sourceTree = "<group>";
 		};
+		52667B132AE05F7B00E7ACF1 /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+				52667B142AE05FBF00E7ACF1 /* CommentsTVC.swift */,
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
+		52667B162AE0602700E7ACF1 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				52667B182AE0607100E7ACF1 /* PhotosCVC.swift */,
+				52667B172AE0604000E7ACF1 /* Cell */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+		52667B172AE0604000E7ACF1 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				52667B1C2AE0685C00E7ACF1 /* PhotosCVCell.swift */,
+				52667B1D2AE0685C00E7ACF1 /* PhotosCVCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		52749D6D2AD7439100EB022E = {
 			isa = PBXGroup;
 			children = (
@@ -167,11 +205,13 @@
 		52749D912AD7460300EB022E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				52667B132AE05F7B00E7ACF1 /* Comments */,
 				52667B092ADDE59500E7ACF1 /* ActionsCollection */,
 				52667B0A2ADDE5A600E7ACF1 /* ImageView */,
 				52667B0B2ADDE5B900E7ACF1 /* UsersList */,
 				52667B0C2ADDE5C500E7ACF1 /* Posts */,
 				52667B0D2ADDE5E400E7ACF1 /* Albums */,
+				52667B162AE0602700E7ACF1 /* Photos */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -180,7 +220,7 @@
 			isa = PBXGroup;
 			children = (
 				52749DA02AD7482000EB022E /* Main.storyboard */,
-				52667B072ADDE17900E7ACF1 /* AlbunsAndPhotos.storyboard */,
+				52667B072ADDE17900E7ACF1 /* AlbumsAndPhotos.storyboard */,
 				52667AFC2ADDDC6B00E7ACF1 /* PostFlow.storyboard */,
 				52749D872AD7439200EB022E /* LaunchScreen.storyboard */,
 			);
@@ -194,6 +234,8 @@
 				52667B012ADDDF8D00E7ACF1 /* ApiConstatnts.swift */,
 				52667B032ADDDFCA00E7ACF1 /* PostModel.swift */,
 				52667B052ADDDFE600E7ACF1 /* AlbumModel.swift */,
+				52667B0E2AE05E1700E7ACF1 /* CommentModel.swift */,
+				52667B102AE05E3A00E7ACF1 /* PhotoModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -268,7 +310,8 @@
 			files = (
 				52667AFD2ADDDC6B00E7ACF1 /* PostFlow.storyboard in Resources */,
 				52749DA12AD7482000EB022E /* Main.storyboard in Resources */,
-				52667B082ADDE17900E7ACF1 /* AlbunsAndPhotos.storyboard in Resources */,
+				52667B082ADDE17900E7ACF1 /* AlbumsAndPhotos.storyboard in Resources */,
+				52667B1F2AE0685C00E7ACF1 /* PhotosCVCell.xib in Resources */,
 				52749D892AD7439200EB022E /* LaunchScreen.storyboard in Resources */,
 				52749D862AD7439200EB022E /* Assets.xcassets in Resources */,
 			);
@@ -281,16 +324,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52667B112AE05E3A00E7ACF1 /* PhotoModel.swift in Sources */,
 				52749D7A2AD7439100EB022E /* AppDelegate.swift in Sources */,
 				52667B042ADDDFCA00E7ACF1 /* PostModel.swift in Sources */,
+				52667B1E2AE0685C00E7ACF1 /* PhotosCVCell.swift in Sources */,
+				52667B192AE0607100E7ACF1 /* PhotosCVC.swift in Sources */,
 				52749D7C2AD7439100EB022E /* SceneDelegate.swift in Sources */,
 				52749DB02ADDD48300EB022E /* PostsTVC.swift in Sources */,
 				52749D9B2AD746B900EB022E /* ActionCVCell.swift in Sources */,
 				52749D992AD7469E00EB022E /* CollectionVC.swift in Sources */,
 				52667B002ADDDF6900E7ACF1 /* NetworkService.swift in Sources */,
 				52667B022ADDDF8D00E7ACF1 /* ApiConstatnts.swift in Sources */,
+				52667B152AE05FBF00E7ACF1 /* CommentsTVC.swift in Sources */,
 				52749DB42ADDD4D800EB022E /* DetailUserVC.swift in Sources */,
 				52749D9F2AD746F400EB022E /* UsersTVC.swift in Sources */,
+				52667B0F2AE05E1700E7ACF1 /* CommentModel.swift in Sources */,
 				52749DB22ADDD49700EB022E /* AlbumsTVC.swift in Sources */,
 				52749D952AD7463700EB022E /* UserModel.swift in Sources */,
 				52749D842AD7439100EB022E /* RestApp.xcdatamodeld in Sources */,
