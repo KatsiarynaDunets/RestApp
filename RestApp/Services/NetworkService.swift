@@ -121,10 +121,57 @@ class NetworkService {
     }
     
     static func getThumbnail(thumbnailURL: String, callback: @escaping (_ result: UIImage?, _ error: AFError?) -> ()) {
-        AF.request(thumbnailURL).responseImage { response in
-            switch response.result {
-                case .success(let image): callback(image, nil)
-                case .failure(let error): callback(nil, error)
+        if let image = CacheManager.shared.imageCache.image(withIdentifier: thumbnailURL) {
+            callback(image, nil)
+        } else {
+            AF.request(thumbnailURL).responseImage { response in
+                switch response.result {
+                case .success(let image):
+                    CacheManager.shared.imageCache.add(image, withIdentifier: thumbnailURL)
+                    callback(image, nil)
+                case .failure(let error):
+                    callback(nil, error)
+                }
+            }
+        }
+    }
+    
+    /// универсальные методы для загрузки любых типов данных -
+
+    static func getData(from url: URL, complition: @escaping (Data?, URLResponse?, Error?) -> ()) {
+        URLSession.shared.dataTask(with: url, completionHandler: complition).resume()
+    }
+    
+    static func deletePhoto(photoID: Int, authToken: String?, callback: @escaping (_ success: Bool, _ error: Error?) -> ()) {
+          let urlPath = "\(ApiConstants.photosPath)/\(photoID)"
+
+          var headers: HTTPHeaders = [:]
+          if let token = authToken {
+              headers["Authorization"] = "Bearer \(token)"
+          }
+
+          AF.request(urlPath, method: .delete, headers: headers)
+              .response { response in
+                  switch response.result {
+                  case .success:
+                      callback(true, nil) // Успешно удалено
+                  case .failure(let error):
+                      callback(false, error) // Ошибка удаления
+                  }
+              }
+      }
+
+    
+    static func downloadImage(from url: URL, callback: @escaping (_ image: UIImage?, _ error: Error?) -> ()) {
+        getData(from: url) { data, response, error in
+            /// тут можно добавить логику
+            ///  - обработки ошибок
+            ///  - преобразования картинок
+            if let data,
+               let image = UIImage(data: data) {
+                callback(image, nil)
+            } else {
+                callback(nil, error)
             }
         }
     }
