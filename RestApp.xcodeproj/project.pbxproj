@@ -19,6 +19,8 @@
 		52667B192AE0607100E7ACF1 /* PhotosCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52667B182AE0607100E7ACF1 /* PhotosCVC.swift */; };
 		52667B1E2AE0685C00E7ACF1 /* PhotosCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52667B1C2AE0685C00E7ACF1 /* PhotosCVCell.swift */; };
 		52667B1F2AE0685C00E7ACF1 /* PhotosCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52667B1D2AE0685C00E7ACF1 /* PhotosCVCell.xib */; };
+		52667B212AE70E3800E7ACF1 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52667B202AE70E3800E7ACF1 /* CacheManager.swift */; };
+		52667B232AE7104D00E7ACF1 /* PhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52667B222AE7104D00E7ACF1 /* PhotoVC.swift */; };
 		52749D7A2AD7439100EB022E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52749D792AD7439100EB022E /* AppDelegate.swift */; };
 		52749D7C2AD7439100EB022E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52749D7B2AD7439100EB022E /* SceneDelegate.swift */; };
 		52749D842AD7439100EB022E /* RestApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52749D822AD7439100EB022E /* RestApp.xcdatamodeld */; };
@@ -52,6 +54,8 @@
 		52667B182AE0607100E7ACF1 /* PhotosCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCVC.swift; sourceTree = "<group>"; };
 		52667B1C2AE0685C00E7ACF1 /* PhotosCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCVCell.swift; sourceTree = "<group>"; };
 		52667B1D2AE0685C00E7ACF1 /* PhotosCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotosCVCell.xib; sourceTree = "<group>"; };
+		52667B202AE70E3800E7ACF1 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		52667B222AE7104D00E7ACF1 /* PhotoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoVC.swift; sourceTree = "<group>"; };
 		52749D762AD7439100EB022E /* RestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52749D792AD7439100EB022E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52749D7B2AD7439100EB022E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				52667AFF2ADDDF6900E7ACF1 /* NetworkService.swift */,
+				52667B202AE70E3800E7ACF1 /* CacheManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -147,7 +152,7 @@
 		52667B162AE0602700E7ACF1 /* Photos */ = {
 			isa = PBXGroup;
 			children = (
-				52667B182AE0607100E7ACF1 /* PhotosCVC.swift */,
+				52667B222AE7104D00E7ACF1 /* PhotoVC.swift */,
 				52667B172AE0604000E7ACF1 /* Cell */,
 			);
 			path = Photos;
@@ -158,6 +163,7 @@
 			children = (
 				52667B1C2AE0685C00E7ACF1 /* PhotosCVCell.swift */,
 				52667B1D2AE0685C00E7ACF1 /* PhotosCVCell.xib */,
+				52667B182AE0607100E7ACF1 /* PhotosCVC.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -230,8 +236,8 @@
 		52749D932AD7462300EB022E /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				52749D942AD7463700EB022E /* UserModel.swift */,
 				52667B012ADDDF8D00E7ACF1 /* ApiConstatnts.swift */,
+				52749D942AD7463700EB022E /* UserModel.swift */,
 				52667B032ADDDFCA00E7ACF1 /* PostModel.swift */,
 				52667B052ADDDFE600E7ACF1 /* AlbumModel.swift */,
 				52667B0E2AE05E1700E7ACF1 /* CommentModel.swift */,
@@ -330,6 +336,7 @@
 				52667B1E2AE0685C00E7ACF1 /* PhotosCVCell.swift in Sources */,
 				52667B192AE0607100E7ACF1 /* PhotosCVC.swift in Sources */,
 				52749D7C2AD7439100EB022E /* SceneDelegate.swift in Sources */,
+				52667B212AE70E3800E7ACF1 /* CacheManager.swift in Sources */,
 				52749DB02ADDD48300EB022E /* PostsTVC.swift in Sources */,
 				52749D9B2AD746B900EB022E /* ActionCVCell.swift in Sources */,
 				52749D992AD7469E00EB022E /* CollectionVC.swift in Sources */,
@@ -345,6 +352,7 @@
 				52667B062ADDDFE600E7ACF1 /* AlbumModel.swift in Sources */,
 				52749DAE2ADDD44C00EB022E /* NewPostVC.swift in Sources */,
 				52749D9D2AD746D400EB022E /* ImageVC.swift in Sources */,
+				52667B232AE7104D00E7ACF1 /* PhotoVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
